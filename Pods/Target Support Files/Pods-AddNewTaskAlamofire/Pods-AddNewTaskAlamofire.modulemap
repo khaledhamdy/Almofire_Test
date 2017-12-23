@@ -1,0 +1,6 @@
+framework module Pods_AddNewTaskAlamofire {
+  umbrella header "Pods-AddNewTaskAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
