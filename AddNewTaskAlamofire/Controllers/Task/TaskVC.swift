@@ -145,9 +145,9 @@ extension TaskVC:UITableViewDelegate
     {
         let taskItem = taskArr[indexPath.row]
         let deleteAction = UITableViewRowAction(style: .default, title: "Delete") { (action, indexpath) in
-            
             self.handleDelet(task: taskItem, indexpath: indexPath)
         }
+        deleteAction.backgroundColor = UIColor.blue
         
         let editAction = UITableViewRowAction(style: .default, title: "Edit") { (action, indexpath) in
             self.handleEdit(task: taskItem, indexpath: indexPath)
